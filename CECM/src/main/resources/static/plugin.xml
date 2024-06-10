@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<plugins>
+    <plugin type ="STUDY_ADD" command="com.godel.handler.command.StudyAddCommand" mode="singleton"/>
+    <plugin type ="STUDY_GET_ALL" command="com.godel.handler.command.StudyGetCommand" mode="singleton"/>
+    <plugin type ="STUDY_GET" command="com.godel.handler.command.StudyGetByIdCommand" mode="singleton"/>
+    <plugin type ="STUDY_UPDATE" command="com.godel.handler.command.StudyUpdateCommand" mode="singleton"/>
+    <plugin type ="STUDY_DELETE_ID" command="com.godel.handler.command.StudyDeleteByIdCommand" mode="singleton"/>
+
+    <plugin type ="PATIENT_ADD" command="com.godel.handler.command.PatientAddCommand" mode="singleton"/>
+    <plugin type ="PATIENT_GET_ALL" command="com.godel.handler.command.PatientGetCommand" mode="singleton"/>
+    <plugin type ="PATIENT_GET" command="com.godel.handler.command.PatientGetByIdCommand" mode="singleton"/>
+    <plugin type ="PATIENT_UPDATE" command="com.godel.handler.command.PatientUpdateCommand" mode="singleton"/>
+    <plugin type ="PATIENT_DELETE_ID" command="com.godel.handler.command.PatientDeleteByIdCommand" mode="singleton"/>
+</plugins>
